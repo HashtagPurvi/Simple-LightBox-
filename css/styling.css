@@ -1,0 +1,59 @@
+html{
+	background:#291400;
+}
+
+#heading
+{
+	 font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 font-variant: small-caps;
+	color: white;
+	text-align: justify;
+	word-spacing: 5px;		
+	/*text-decoration: underline; */
+}
+
+#description{
+	 font-family: "Book Antiqua","Palatino Linotype" , Palatino, serif;
+	color: white;
+	text-align: justify;
+	font-size: 22px;	
+}
+
+body{
+
+	width: 1000px;
+	float: left;
+	padding-left: 225px;
+}
+
+#gallery img
+{
+	height: 200px;
+	width: 200px;
+}
+
+#overlay {
+
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+#overlay img {
+
+	margin-top: 10%;
+
+}
+
+#overlay p{
+	color: white;
+}
+
+/*@media () and (){
+	
+}*/

@@ -26,10 +26,10 @@ body{
 	padding-left: 225px;
 }
 
-#gallery img
+img
 {
-	height: 200px;
-	width: 200px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 #overlay {
